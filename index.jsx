@@ -29,10 +29,10 @@ function App() {
           <Route path="vans/:id" element={<VanDetail />} />
           
 
-          <Route path="vans">
+          {/* <Route path="vans">
             <Route index element={<Vans />} />
             <Route path=":id" element={<VanDetail />} />
-          </Route>
+          </Route> */}
 
           <Route path="host" element={<HostLayout />}>
             <Route index element={<Dashboard />} />
